@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "SIMS_SE06205/1.0.0": {
+        "runtime": {
+          "SIMS_SE06205.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SIMS_SE06205/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
