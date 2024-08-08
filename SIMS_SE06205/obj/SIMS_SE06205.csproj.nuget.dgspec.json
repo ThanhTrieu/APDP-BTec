@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\CSharp\\SIMS_SE06205\\SIMS_SE06205\\SIMS_SE06205.csproj": {}
+    "C:\\CSharp\\SIMS\\SIMS_SE06205\\SIMS_SE06205.csproj": {}
   },
   "projects": {
-    "C:\\CSharp\\SIMS_SE06205\\SIMS_SE06205\\SIMS_SE06205.csproj": {
+    "C:\\CSharp\\SIMS\\SIMS_SE06205\\SIMS_SE06205.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\CSharp\\SIMS_SE06205\\SIMS_SE06205\\SIMS_SE06205.csproj",
+        "projectUniqueName": "C:\\CSharp\\SIMS\\SIMS_SE06205\\SIMS_SE06205.csproj",
         "projectName": "SIMS_SE06205",
-        "projectPath": "C:\\CSharp\\SIMS_SE06205\\SIMS_SE06205\\SIMS_SE06205.csproj",
+        "projectPath": "C:\\CSharp\\SIMS\\SIMS_SE06205\\SIMS_SE06205.csproj",
         "packagesPath": "C:\\Users\\nguyenthanhtrieu\\.nuget\\packages\\",
-        "outputPath": "C:\\CSharp\\SIMS_SE06205\\SIMS_SE06205\\obj\\",
+        "outputPath": "C:\\CSharp\\SIMS\\SIMS_SE06205\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nguyenthanhtrieu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,6 +45,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

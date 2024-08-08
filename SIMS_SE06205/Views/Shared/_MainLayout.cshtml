@@ -1,4 +1,7 @@
-﻿@{
+﻿@using Microsoft.AspNetCore.Session
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+
+@{
     // viet code C# - khong phai html
     string nameController = ViewContext.RouteData.Values["Controller"].ToString();
     string activeCourse = nameController == "Course" ? "active" : "";
@@ -36,12 +39,19 @@
         <!-- Navbar-->
         <ul class="navbar-nav ms-auto ms-md-0 me-3 me-lg-4">
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
+                <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fas fa-user fa-fw"></i>
+                </a>
                 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
                     <li><a class="dropdown-item" href="#!">Settings</a></li>
                     <li><a class="dropdown-item" href="#!">Activity Log</a></li>
                     <li><hr class="dropdown-divider" /></li>
-                    <li><a class="dropdown-item" href="#!">Logout</a></li>
+                    <li>
+                        @using(Html.BeginForm("Logout", "Login", FormMethod.Post))
+                        {
+                            <button class="dropdown-item" type="submit">Logout</button>
+                        }
+                    </li>
                 </ul>
             </li>
         </ul>
@@ -68,7 +78,7 @@
                 </div>
                 <div class="sb-sidenav-footer">
                     <div class="small">Logged in as:</div>
-                    TrieuNT6
+                    @HttpContextAccessor.HttpContext.Session.GetString("SessionUsername")
                 </div>
             </nav>
         </div>
