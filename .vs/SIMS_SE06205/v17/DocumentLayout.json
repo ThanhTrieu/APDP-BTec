@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\CSharp\\SIMS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EB6166CA-4CC9-48E0-9640-409711F67976}|SIMS_SE06205\\SIMS_SE06205.csproj|c:\\csharp\\sims\\sims_se06205\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB6166CA-4CC9-48E0-9640-409711F67976}|SIMS_SE06205\\SIMS_SE06205.csproj|solutionrelative:sims_se06205\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EB6166CA-4CC9-48E0-9640-409711F67976}|SIMS_SE06205\\SIMS_SE06205.csproj|c:\\csharp\\sims\\sims_se06205\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EB6166CA-4CC9-48E0-9640-409711F67976}|SIMS_SE06205\\SIMS_SE06205.csproj|solutionrelative:sims_se06205\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6166CA-4CC9-48E0-9640-409711F67976}|SIMS_SE06205\\SIMS_SE06205.csproj|c:\\csharp\\sims\\sims_se06205\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB6166CA-4CC9-48E0-9640-409711F67976}|SIMS_SE06205\\SIMS_SE06205.csproj|solutionrelative:sims_se06205\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EB6166CA-4CC9-48E0-9640-409711F67976}|SIMS_SE06205\\SIMS_SE06205.csproj|c:\\csharp\\sims\\sims_se06205\\views\\course\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -37,17 +37,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "LoginController.cs",
               "DocumentMoniker": "C:\\CSharp\\SIMS\\SIMS_SE06205\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "SIMS_SE06205\\Controllers\\LoginController.cs",
               "ToolTip": "C:\\CSharp\\SIMS\\SIMS_SE06205\\Controllers\\LoginController.cs",
               "RelativeToolTip": "SIMS_SE06205\\Controllers\\LoginController.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAABQvTQAAAASAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-08T18:01:18.036Z",
               "EditorCaption": ""
@@ -62,8 +62,7 @@
               "RelativeToolTip": "SIMS_SE06205\\Views\\Course\\Update.cshtml",
               "ViewState": "AQIAAA4AAACAzMzMzMwswCQAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-08T17:45:17.424Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-08T17:45:17.424Z"
             },
             {
               "$type": "Document",
@@ -75,8 +74,7 @@
               "RelativeToolTip": "..\\data-sims\\data-courses.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-08T17:38:18.216Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-08T17:38:18.216Z"
             },
             {
               "$type": "Document",
@@ -88,8 +86,7 @@
               "RelativeToolTip": "SIMS_SE06205\\Views\\Course\\Add.cshtml",
               "ViewState": "AQIAABMAAAAAAAAAAAAowCkAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-08T16:42:11.999Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-08T16:42:11.999Z"
             },
             {
               "$type": "Document",
@@ -101,8 +98,7 @@
               "RelativeToolTip": "SIMS_SE06205\\Views\\Course\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-08T16:29:10.581Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-08T16:29:10.581Z"
             },
             {
               "$type": "Document",
@@ -114,18 +110,17 @@
               "RelativeToolTip": "SIMS_SE06205\\Models\\CourseViewModel.cs",
               "ViewState": "AQIAAA4AAABgmZmZmZktwBYAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T16:03:26.076Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-08T16:03:26.076Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CourseController.cs",
               "DocumentMoniker": "C:\\CSharp\\SIMS\\SIMS_SE06205\\Controllers\\CourseController.cs",
               "RelativeDocumentMoniker": "SIMS_SE06205\\Controllers\\CourseController.cs",
               "ToolTip": "C:\\CSharp\\SIMS\\SIMS_SE06205\\Controllers\\CourseController.cs",
               "RelativeToolTip": "SIMS_SE06205\\Controllers\\CourseController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGgAAAAvAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-31T03:44:38.991Z",
               "EditorCaption": ""

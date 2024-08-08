@@ -6,7 +6,7 @@ namespace SIMS_SE06205.Controllers
 {
     public class CourseController : Controller
     {
-        private string filePathCourse = @"C:\\CSharp\\data-sims\\data-courses.json";
+        private string filePathCourse = @"C:\CSharp\SIMS\data-sims\\data-courses.json";
 
         [HttpGet]
         public IActionResult Index()

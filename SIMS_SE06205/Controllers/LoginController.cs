@@ -6,7 +6,7 @@ namespace SIMS_SE06205.Controllers
 {
     public class LoginController : Controller
     {
-        private string filePathDataUser = @"C:\\CSharp\\data-sims\\data-user.json";
+        private string filePathDataUser = @"C:\CSharp\SIMS\data-sims\\data-user.json";
 
         [HttpGet]
         public IActionResult Index()

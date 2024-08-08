@@ -64,3 +64,4 @@ C:\CSharp\SIMS\SIMS_SE06205\obj\Debug\net8.0\refint\SIMS_SE06205.dll
 C:\CSharp\SIMS\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.pdb
 C:\CSharp\SIMS\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.genruntimeconfig.cache
 C:\CSharp\SIMS\SIMS_SE06205\obj\Debug\net8.0\ref\SIMS_SE06205.dll
+C:\CSharp\SIMS\SIMS_SE06205\obj\Debug\net8.0\SIMS_SE06205.sourcelink.json
